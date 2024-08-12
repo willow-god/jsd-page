@@ -6,12 +6,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="清羽飞扬自建 jsDelivr 镜像" />
-    <link rel="stylesheet" href="https://jsd.liushen.fun/npm/bulma@0.9.4/css/bulma.min.css" />
-    <link rel="stylesheet" href="https://jsd.liushen.fun/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://jsd.qyliu.top/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://jsd.qyliu.top/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="https://font.onmicrosoft.cn/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreen.css" />
-    <link rel="icon" href="https://blog.qyliu.top/info/avatar.ico" />
-    <link rel="apple-touch-icon" href="https://blog.qyliu.top/info/avatar.ico" />
-    <link rel="stylesheet" href="https://jsd.liushen.fun/npm/prismjs@v1.x/themes/prism.css" />
+    <link rel="icon" href="https://blog.liushen.fun/info/avatar.ico" />
+    <link rel="apple-touch-icon" href="https://blog.liushen.fun/info/avatar.ico" />
+    <link rel="stylesheet" href="https://jsd.qyliu.top/npm/prismjs@v1.x/themes/prism.css" />
     <script src='https://jsd.duolaa.top/npm/@waline/client@v2/dist/waline.js'></script>
     <link href='https://jsd.duolaa.top/npm/@waline/client@v2/dist/waline.css' rel='stylesheet' />
     <script language="javascript">
@@ -70,7 +70,7 @@
           <a class="navbar-item" href="/"> LiuShen CDN </a>
         </div>
         <div class="navbar-end">
-          <a class="navbar-item" href="https://blog.duolaa.asia">  </a>
+          <a class="navbar-item" href="https://blog.liushen.fun">  </a>
         </div>
       </div>
     </nav>
@@ -125,58 +125,58 @@
               该站点为自建的jsDelivr镜像，用于加速国内资源，采用Cloudflare中转回源，使用多吉云融合CDN分发资源。
             </p>
             <p>
-              由<a target="_blank" href="https://blog.qyliu.top/"><i class="fa-solid fa-blog"></i>&nbsp;LiuShen</a>搭建并维护，你可以访问博客找到我的联系方式。
+              由<a target="_blank" href="https://blog.liushen.fun/"><i class="fa-solid fa-blog"></i>&nbsp;LiuShen</a>搭建并维护，你可以访问博客找到我的联系方式。
             </p>
             <p>所有文件结构均遵循 jsDelivr 原有结构。</p>
             <p>
               使用时，请遵守jsDelivr与npm的ToS，本镜像不允许加速图片等资源，若发现此类行为，将禁止违规者使用。
             </p>
             <h2>使用方法</h2>
-            <p>Endpoint: <code>https://jsd.liushen.fun</code></p>
+            <p>Endpoint: <code>https://jsd.qyliu.top</code></p>
             <p>
               将 <code>https://cdn.jsdelivr.net</code> 替换为
-              <code>https://jsd.liushen.fun</code> 即可。
+              <code>https://jsd.qyliu.top</code> 即可。
             </p>
             <p>建议指定版本号加载，否则缓存将经过一年时间才会刷新。</p>
             <pre>
 // load any project hosted on npm
 
-<a href="https://jsd.liushen.fun/npm/package@version/file">https://jsd.liushen.fun/npm/package@version/file</a>
+<a href="https://jsd.qyliu.top/npm/package@version/file">https://jsd.qyliu.top/npm/package@version/file</a>
 
 
 // load jQuery v3.6.4
 
-<a href="https://jsd.liushen.fun/npm/jquery@3.6.4/dist/jquery.min.js">https://jsd.liushen.fun/npm/jquery@3.6.4/dist/jquery.min.js</a>
+<a href="https://jsd.qyliu.top/npm/jquery@3.6.4/dist/jquery.min.js">https://jsd.qyliu.top/npm/jquery@3.6.4/dist/jquery.min.js</a>
 
 
 // use a version range instead of a specific version
 
-<a href="https://jsd.liushen.fun/npm/jquery@3.6/dist/jquery.min.js">https://jsd.liushen.fun/npm/jquery@3.6/dist/jquery.min.js</a>
+<a href="https://jsd.qyliu.top/npm/jquery@3.6/dist/jquery.min.js">https://jsd.qyliu.top/npm/jquery@3.6/dist/jquery.min.js</a>
 
-<a href="https://jsd.liushen.fun/npm/jquery@3/dist/jquery.min.js">https://jsd.liushen.fun/npm/jquery@3/dist/jquery.min.js</a>
+<a href="https://jsd.qyliu.top/npm/jquery@3/dist/jquery.min.js">https://jsd.qyliu.top/npm/jquery@3/dist/jquery.min.js</a>
 
 
 // omit the version completely to get the latest one
 
 // you should NOT use this in production
 
-<a href="https://jsd.liushen.fun/npm/jquery/dist/jquery.min.js">https://jsd.liushen.fun/npm/jquery/dist/jquery.min.js</a>
+<a href="https://jsd.qyliu.top/npm/jquery/dist/jquery.min.js">https://jsd.qyliu.top/npm/jquery/dist/jquery.min.js</a>
 
 
 // add ".min" to any JS/CSS file to get a minified version
 
 // if one doesn't exist, we'll generate it for you
 
-<a href="https://jsd.liushen.fun/npm/jquery@3.6.4/src/core.min.js">https://jsd.liushen.fun/npm/jquery@3.6.4/src/core.min.js</a>
+<a href="https://jsd.qyliu.top/npm/jquery@3.6.4/src/core.min.js">https://jsd.qyliu.top/npm/jquery@3.6.4/src/core.min.js</a>
 
 
 // omit the file path to get the default file
 
-<a href="https://jsd.liushen.fun/npm/jquery@3.6">https://jsd.liushen.fun/npm/jquery@3.6</a>
+<a href="https://jsd.qyliu.top/npm/jquery@3.6">https://jsd.qyliu.top/npm/jquery@3.6</a>
 
 // add / at the end to get a directory listing
 
-<a href="https://jsd.liushen.fun/npm/jquery/">https://jsd.liushen.fun/npm/jquery/</a>                
+<a href="https://jsd.qyliu.top/npm/jquery/">https://jsd.qyliu.top/npm/jquery/</a>                
               </pre>
             <h2>测速</h2>
                 <img alt="avatar" src="/image/result.png" class="is-rounded" style="border-radius: 20px;" />
@@ -201,6 +201,8 @@
               若您对我们的处理结果有异议，请联系邮箱📮01@liushen.fun
               <br />
               感谢lisui老哥的CDN！
+              <br />
+              感谢来自一府的网站模板！
             </p>
           </div>
           <hr/>
@@ -209,7 +211,7 @@
                 Waline.init({
                 el: '#waline',
                 serverURL: 'https://comment.qyliu.top/',
-                emoji: ['https://jsd.liushen.fun/npm/sticker-heo@2022.7.5/Sticker-100/',],
+                emoji: ['https://jsd.qyliu.top/npm/sticker-heo@2022.7.5/Sticker-100/',],
                 });
             </script>
         </div>
@@ -220,7 +222,7 @@
     </section>
 
     <footer style="background-color: #f1f1f1; text-align: center; padding: 10px;">
-        <p>© 2024  <a target="_blank" href="https://blog.qyliu.top/"
+        <p>© 2024  <a target="_blank" href="https://blog.liushen.fun/"
                       ><i class="fa-solid fa-blog"></i>&nbsp;清羽飞扬</a
                     > · 版权所有</p>
         <p>CDN：<a href="https://www.dogecloud.com/" target="_blank">多吉云</a> & <a href="https://www.cloudflare-cn.com/" target="_blank">Cloudflare</a> & <a href="https://www.baishan.com/" target="_blank">白山云</a></p>
